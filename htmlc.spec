@@ -13,6 +13,7 @@ Source:         ftp://ftp.inria.fr/INRIA/cristal/caml-light/bazar-ocaml/%{name}-
 patch:          %{name}-1.60.makefile.patch.bz2
 BuildRequires:  ocaml
 BuildRequires:  ncurses-devel
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description 
 Htmlc is an HTML template files expander that produces regular HTML pages from
