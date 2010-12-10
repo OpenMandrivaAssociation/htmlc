@@ -1,6 +1,6 @@
 %define name    htmlc
 %define version 1.60
-%define release %mkrel 7
+%define release %mkrel 8
 
 Name:           %{name}
 Version:        %{version}
