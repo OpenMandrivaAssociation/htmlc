@@ -8,7 +8,7 @@ Release:        %{release}
 License:        BSD like
 Summary:        An HTML files generator
 Group:          Publishing
-URL:            http://pauillac.inria.fr/htmlc
+URL:            https://pauillac.inria.fr/htmlc
 Source:         ftp://ftp.inria.fr/INRIA/cristal/caml-light/bazar-ocaml/%{name}-%{version}.tar.bz2
 patch:          %{name}-1.60.makefile.patch.bz2
 BuildRequires:  ocaml
