@@ -11,6 +11,7 @@ Group:          Publishing
 URL:            https://pauillac.inria.fr/htmlc
 Source:         ftp://ftp.inria.fr/INRIA/cristal/caml-light/bazar-ocaml/%{name}-%{version}.tar.bz2
 patch:          %{name}-1.60.makefile.patch.bz2
+BuildRequires:	make
 BuildRequires:  ocaml
 BuildRequires:  ncurses-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}
